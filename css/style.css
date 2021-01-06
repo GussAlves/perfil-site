@@ -1,0 +1,50 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu {
+    display: flex;
+    padding: 5%;
+}
+
+.photo > img {
+    border-radius: 3% 25% 3% 3%;
+    height: 400px;
+    transition: all 1.0s;
+}
+
+.photo > img:hover {    
+    transition: all 1.0s;
+    border-radius: 10%;
+    border: 15%;
+    border-style: hidden;
+}
+
+.descricao {
+    margin: 27px 100px 0 0;
+    border: 20%;
+    transition: all 1.0s;
+}
+
+.descricao:hover {
+    background-color: aquamarine;
+    transition:all 0.8s ease;
+    border-radius: 0 23% 0 0;
+}
+
+.box {
+    width: 100%;
+    border: 15px solid aquamarine;
+}
+
+nav > h1 {
+    padding-left: 37px;
+    font-style: italic;
+    font-weight: 1px;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+
+}
