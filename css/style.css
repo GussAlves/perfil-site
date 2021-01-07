@@ -5,6 +5,7 @@
 .menu {
     display: flex;
     padding: 5%;
+    align-content: center;
 }
 
 .photo > img {
@@ -35,6 +36,11 @@
 .box {
     width: 100%;
     border: 15px solid aquamarine;
+}
+
+.footer {
+    margin-top: 12px;
+    padding-top: 400px;
 }
 
 nav > h1 {
