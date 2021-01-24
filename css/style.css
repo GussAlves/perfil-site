@@ -8,21 +8,21 @@
 
 .card {
     padding: 30px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 30px;
-    justify-content: stretch;
-    align-content: center;
-    justify-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     align-items: center;
-    padding-bottom: 40px;
-    
+}
+
+.apresentacao {
+    width: 650px;
 }
 
 .photo-perfil > img {
     border-radius: 35%;
     transition-duration: 2s;
     margin: 12px;
+    width: 300px;
 }
 
 .photo-perfil > img:hover {
@@ -53,5 +53,4 @@
 .nav-conteudos {
     border-top: 10px #007BB9 dashed;
     background-color: #ffffff; 
-    
 }
