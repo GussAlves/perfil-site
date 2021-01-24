@@ -7,7 +7,7 @@
 }
 
 .main {
-    background-color: #ffffff;
+    background-color: whitesmoke;
 }
 
 .card {
@@ -17,6 +17,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    justify-self: center;
     flex-shrink: 1;
     flex-grow: 1;
 }
@@ -52,11 +53,27 @@
 }
 
 .conteudo {
-    background-image: linear-gradient(to bottom, #ffffff, whitesmoke, #00B5DD, #00B5DD, #007BB9);
-    height: 450px;
+    background-image: linear-gradient(to bottom,#ffffff, #ffffff, #00B5DD, #00B5DD, #007BB9);
 }
 
 .nav-conteudos {
-    border-top: 10px #00B5DD dashed;
-    background-color: #ffffff; 
+    border-top: 6px #00B5DD dashed;
+    padding-top: 25px;
+}
+
+.conteudo-conhecimento {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    align-items: center;
+    
+}
+
+.img {
+
+}
+
+.tecnologia {
+   
 }
