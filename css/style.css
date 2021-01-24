@@ -1,56 +1,50 @@
 * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
-.menu {
-    display: flex;
-    padding: 5%;
+.main {
+    background-color: #ffffff;
+}
+
+.card {
+    padding: 30px;
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    justify-content: stretch;
     align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 40px;
 }
 
-.photo > img {
-    border-radius: 3% 25% 3% 3%;
-    height: 400px;
-    transition: all 1.0s;
+.photo-perfil > img {
+    border-radius: 35%;
+    transition-duration: 2s;
+    margin: 12px;
 }
 
-.photo > img:hover {    
-    transition: all 1.0s;
-    border-radius: 10%;
-    border: 15%;
-    border-style: hidden;
+.photo-perfil > img:hover {
+    transition-duration: 2s;
+    border-radius: 15%;
 }
 
-.descricao {
-    margin: 27px 100px 0 0;
-    border: 20%;
-    transition: all 1.0s;
+.texto-apresentacao {
+    color: #3A3F50;
+    font-size: 20px;
 }
 
-.descricao:hover {
-    background-color: aquamarine;
-    transition:all 0.8s ease;
-    border-radius: 0 23% 0 0;
+.ola {
+    font-size: 72px;
+    color: #007BB9;
 }
 
-.box {
-    width: 100%;
-    border: 15px solid aquamarine;
+.meu-nome {
+    font-size: 32px;
+    color: #00B5DD;
 }
 
-.footer {
-    margin-top: 12px;
-    padding-top: 400px;
-}
-
-nav > h1 {
-    padding-left: 37px;
-    font-style: italic;
-    font-weight: 1px;
-    color: whitesmoke;
-}
-
-.container {
-    display: flex;
-
+.conteudo {
+    background-image: linear-gradient(to bottom, #007BB9, #00B5DD, #00B5DD);
+    height: 450px;
 }
