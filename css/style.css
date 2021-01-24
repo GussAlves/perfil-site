@@ -8,7 +8,7 @@
 
 .card {
     padding: 30px;
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 30px;
     justify-content: stretch;
@@ -16,6 +16,7 @@
     justify-items: center;
     align-items: center;
     padding-bottom: 40px;
+    
 }
 
 .photo-perfil > img {
@@ -45,6 +46,12 @@
 }
 
 .conteudo {
-    background-image: linear-gradient(to bottom, #007BB9, #00B5DD, #00B5DD);
+    background-image: linear-gradient(to bottom, #00b5dd, #00B5DD, #007BB9);
     height: 450px;
+}
+
+.nav-conteudos {
+    border-top: 10px #007BB9 dashed;
+    background-color: #ffffff; 
+    
 }
