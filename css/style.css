@@ -2,6 +2,10 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+.margin {
+    border-top: 3px solid #00B5DD;
+}
+
 .main {
     background-color: #ffffff;
 }
@@ -13,6 +17,8 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .apresentacao {
@@ -23,7 +29,6 @@
     border-radius: 35%;
     transition-duration: 2s;
     margin: 12px;
-    width: 300px;
 }
 
 .photo-perfil > img:hover {
@@ -47,7 +52,7 @@
 }
 
 .conteudo {
-    background-image: linear-gradient(to bottom, #00b5dd, #00B5DD, #007BB9);
+    background-image: linear-gradient(to bottom, #ffffff, whitesmoke, #00B5DD, #00B5DD, #007BB9);
     height: 450px;
 }
 
