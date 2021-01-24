@@ -7,11 +7,12 @@
 }
 
 .card {
-    padding: 30px;
+    padding: 25px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    align-content: center;
 }
 
 .apresentacao {
@@ -51,6 +52,6 @@
 }
 
 .nav-conteudos {
-    border-top: 10px #007BB9 dashed;
+    border-top: 10px #00B5DD dashed;
     background-color: #ffffff; 
 }
