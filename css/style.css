@@ -23,7 +23,7 @@
 }
 
 .apresentacao {
-    width: 650px;
+    width: 50em;
 }
 
 .photo-perfil > img {
@@ -39,16 +39,16 @@
 
 .texto-apresentacao {
     color: #3A3F50;
-    font-size: 20px;
+    font-size: 1.4em;
 }
 
 .ola {
-    font-size: 72px;
+    font-size: 5.6em;
     color: #007BB9;
 }
 
 .meu-nome {
-    font-size: 32px;
+    font-size: 2.6em;
     color: #00B5DD;
 }
 
@@ -67,8 +67,4 @@
     flex-wrap: wrap;
     padding-top: 50px;
     align-items: center;
-}
-
-.box-conhecimento { 
-    
 }
