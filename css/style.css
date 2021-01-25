@@ -11,15 +11,7 @@
 }
 
 .card {
-    padding: 25px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    justify-self: center;
-    flex-shrink: 1;
-    flex-grow: 1;
+
 }
 
 .apresentacao {
@@ -29,7 +21,8 @@
 .photo-perfil > img {
     border-radius: 35%;
     transition-duration: 2s;
-    margin: 12px;
+    margin: 15px;
+    padding: 2px;
 }
 
 .photo-perfil > img:hover {
@@ -40,10 +33,11 @@
 .texto-apresentacao {
     color: #3A3F50;
     font-size: 1.4em;
+    text-align: justify;
 }
 
 .ola {
-    font-size: 3.2em;
+    font-size: 3.3em;
     color: #007BB9;
 }
 
