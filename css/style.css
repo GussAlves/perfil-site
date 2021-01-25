@@ -62,3 +62,13 @@
 .box-conhecimento { 
     
 }
+
+.card-title {
+    text-align: center;
+    justify-content: center;
+}
+
+.list-group-item {
+    align-items: center;
+    text-align: center;
+}
