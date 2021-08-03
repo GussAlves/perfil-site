@@ -1,2 +1,4 @@
 # perfil-site
-Website com meus projetos e falando um pouco mais sobre mim
+Website com cartão de visitas  
+
+Disponível em: https://gussalves.github.io/perfil-site/
